@@ -1,1 +1,56 @@
 /* You can add global styles to this file, and also import other style files */
+/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+@import '~@angular/cdk/overlay-prebuilt.css';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    position: relative;
+    font-family: 'Ubuntu', Verdana;
+    background: #ececec;
+
+
+    }
+
+.card {
+    display: flex;
+    flex-direction: column;
+    border-radius: .5rem;
+    background-color: rgb(255,255,255, 0.7);
+    margin: 1.25rem 0 1.25rem 0;
+    box-shadow: 0 .25rem .5rem #e6edef;
+    color: #495057;
+
+
+    .card-head {
+        padding: 1rem 1.5rem;
+        border-bottom: 1px solid rgb(255,255,255, 0.2);
+        font-size: 1rem;
+        font-weight: 600;
+        z-index: 2;
+    }
+
+    .card-body {
+        padding: 1rem 1.5rem;
+
+    }
+}
+
+input::placeholder{
+  color: #0070AD;
+}
+
+h1 {
+  color: #0070AD;
+}
+
+h2 {
+  color: #0070AD;
+
+}
